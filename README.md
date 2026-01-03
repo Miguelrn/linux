@@ -31,3 +31,11 @@ docker run -d \
 ```
 chown -R dockeruser:dockeruser /home/dockeruser
 ```
+
+```
+  Host localhost
+    HostName localhost
+    User dockeruser
+    Port 2222
+    IdentityFile ~/.ssh/docker_linux
+```
