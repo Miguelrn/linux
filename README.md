@@ -25,3 +25,9 @@ docker run -d \
   -v linux_data:/home/dockeruser \
   linux-ssh
 ```
+
+
+
+```
+chown -R dockeruser:dockeruser /home/dockeruser
+```
